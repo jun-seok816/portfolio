@@ -1,11 +1,14 @@
 import React from "react";
 import "./main.scss";
 import AboutMe from "./Main/AboutMe";
-
 import Header from "./Main/Header";
 import WorkExperience from "./Main/WorkExperience";
+import EmblaCarousel from "./Main/Icons";
 
 export default function App() {
+  const OPTIONS = { loop: true }
+const SLIDE_COUNT = 8
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
   return (
     <div className="portfolio" id="bguruoiskdjj2323">
       {/* Accessibility: skip navigation */}
@@ -20,7 +23,8 @@ export default function App() {
         <AboutMe/>
         {/* WORK EXPERIENCE */}
         <WorkExperience/>
-
+        {/* ICONS */}
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
         {/* WORK: 만든 사이트 리스트 뷰 */}
         <section
           id="work"

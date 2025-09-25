@@ -1,0 +1,52 @@
+/* EXPERIENCE timeline */
+.timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 22px;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+.timeline__item {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 28px;
+}
+.timeline__dot {
+  position: absolute;
+  left: -16px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 25%, transparent);
+}
+.timeline__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+  align-items: baseline;
+}
+.timeline__role {
+  font-weight: 700;
+}
+.timeline__company {
+  color: var(--muted);
+}
+.timeline__period {
+  margin-left: auto;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.timeline__desc {
+  margin: 8px 0 0 0;
+  color: var(--muted);
+}
