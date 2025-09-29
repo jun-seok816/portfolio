@@ -6,7 +6,7 @@ export default function AboutMe() {
   
   const nyeoncha = years + 1;
   return (
-    <section id="nvlkneug2dc_ss" className="container">
+    <section id="nvlkneug2dc_ss" className="container section">
       <h1>ABOUT ME</h1>
       <div className="box">
         <div className="img_box">

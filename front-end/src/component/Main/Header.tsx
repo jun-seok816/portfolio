@@ -54,7 +54,7 @@ export default function Header() {
     </header>
      <section
      id="about"
-     className="section section--about"
+     className="section--about"
      aria-labelledby="about-heading"
    >
      <section id="main" className="main__wrap">

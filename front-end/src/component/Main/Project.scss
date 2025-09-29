@@ -1,0 +1,49 @@
+.parent-area {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.floating {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(6px) scaleY(0.8); /* Y만 살짝 접힘 */
+  visibility: hidden;
+  transition: opacity 220ms ease, transform 220ms ease,
+    visibility 0s linear 220ms; /* 숨길 때만 지연해서 포커스/탭 막기 */
+  will-change: opacity, transform;
+  z-index: 9999999;
+}
+
+.floating.is-visible {
+  opacity: 1;
+  transform: translateY(0) scaleY(1);
+  visibility: visible;
+  transition: opacity 240ms ease, transform 240ms ease, visibility 0s; /* 보일 때는 즉시 visible */
+}
+
+.section--projects {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  padding: 60px 0 120px 0;
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .desc__red{
+    color: #f7d9d9 !important;
+  }
+
+  .p__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn-link{
+    color: white !important;
+  }
+}
