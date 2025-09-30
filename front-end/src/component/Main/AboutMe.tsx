@@ -1,18 +1,19 @@
+import { useReveal } from "@jsLib/hooks/useReveal";
 import React from "react";
 import "./AboutMe.scss";
 
 export default function AboutMe() {
   const years = new Date().getFullYear() - 2022;
-  
+
   const nyeoncha = years + 1;
   return (
     <section id="nvlkneug2dc_ss" className="container section">
       <h1 id="aboutme">ABOUT ME</h1>
       <div className="box">
-        <div className="img_box">
+        <div className="img_box half-left">
           <img src="/assets/img/me.jpg" alt="" />
         </div>
-        <div className="txt_box">
+        <div className="txt_box half-rot">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1200 320"

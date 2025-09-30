@@ -5,7 +5,7 @@ export default function WorkExperience() {
   return (
     <section
       id="experience"
-      className="section section--experience"      
+      className="section section--experience reveal"      
     >
       <div className="container">
         <h2 className="section__title">

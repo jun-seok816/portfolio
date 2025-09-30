@@ -42,7 +42,7 @@ export default function HoverFollower({
       {children}
 
       {/* 커서를 따라다닐 엘리먼트 */}
-      <div ref={floatingRef} className="floating">
+      <div ref={floatingRef} className="floating" style={{"display":"none"}}>
         {floating}
       </div>
     </div>
@@ -51,6 +51,7 @@ export default function HoverFollower({
 
 function attachFollowCursor(floating: HTMLElement, opts: any) {
   opts.parent.addEventListener("mousemove", ({ clientX, clientY }:any) => {    
+    floating.style.display = "block";
     floating.classList.add("is-visible");
 
     const virtualEl = {

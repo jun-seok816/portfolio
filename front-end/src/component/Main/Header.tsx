@@ -1,3 +1,4 @@
+import { useReveal } from "@jsLib/hooks/useReveal";
 import React, { useEffect, useRef } from "react";
 import "./Header.scss";
 
@@ -15,6 +16,8 @@ export default function Header() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+
   return (
     <>
     <header ref={headerRef} className="site-header" role="banner">
@@ -52,7 +55,7 @@ export default function Header() {
      className="section--about"
      aria-labelledby="about-heading"
    >
-     <section id="main" className="main__wrap">
+     <section id="main" className="main__wrap reveal">
        <div className="blur float__1"></div>
        <div className="blur float__2"></div>
        <div className="blur float__3"></div>

@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <section
       id="work"
-      className="section section--work"
+      className="section section--work reveal"
       aria-labelledby="work-heading"
     >
       <div className="container">

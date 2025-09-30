@@ -6,7 +6,7 @@ export default function Project() {
   return (
     <section
       id="projects"
-      className="section section--projects"
+      className="section section--projects reveal"
       aria-labelledby="proj-heading"
     >
       <div className="container">
