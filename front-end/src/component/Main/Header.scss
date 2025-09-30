@@ -182,4 +182,9 @@
       font-family: "Pretendard";
     }
   }
+  @media (max-width: 800px) {
+    .site-nav {
+      display: none;
+    }
+  }
 }

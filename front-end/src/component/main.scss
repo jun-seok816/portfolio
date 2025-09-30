@@ -60,6 +60,7 @@ textarea {
   --glass-shadow: rgba(0, 0, 0, 0.35);
 
   --h1:50
+  
 }
 
 @media (prefers-color-scheme: light) {
@@ -246,5 +247,11 @@ body {
   .timeline__period {
     width: 100%;
     margin-left: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .btn-link{
+    display: none;
   }
 }

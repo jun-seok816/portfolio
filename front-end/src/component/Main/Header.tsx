@@ -29,15 +29,10 @@ export default function Header() {
         <nav className="site-nav" aria-label="Primary">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <a href="#aboutme" className="nav__link">
                 ABOUT ME
               </a>
-            </li>
-            <li className="nav__item">
-              <a href="#experience" className="nav__link">
-                WORK EXPERIENCE
-              </a>
-            </li>
+            </li>            
             <li className="nav__item">
               <a href="#work" className="nav__link">
                 WORK
@@ -77,8 +72,8 @@ export default function Header() {
          data-aos-duration="500"
          className="aos-init aos-animate"
        >
-         저는 프론트와 백엔드를 아우르는 풀스택 개발자 오준석입니다. <br />
-         주제에 맞는 인터페이스와 안정적인 서버 구조를 설계하고, 누구나
+         저는 프론트와 백엔드를 아우르는 풀스택 개발자 오준석입니다. <br /> <br />
+         주제에 맞는 인터페이스와 안정적인 서버 구조를 설계하고, <br /> 누구나
          편리하게 사용할 수 있는 웹을 구현합니다.
        </p>
      </section>

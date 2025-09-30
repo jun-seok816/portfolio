@@ -145,3 +145,11 @@
     transform: translate3d(100%, 0, 0);
   }
 }
+
+
+
+@media (max-width: 800px) {
+  .embla{
+    --slide-size:20%
+  }
+}

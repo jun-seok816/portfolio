@@ -23,7 +23,7 @@ export default function Project() {
               <img src="./assets/img/waveform.png" width={650} alt="preview" />
             }
           >
-            <li className="p__list">
+            <li className="p__list" onClick={()=>{window.location.href = "http://eedensoft.com:3000/"}}>
               <div className="card__body">
                 <h3 className="card__title">자막 편집 웹사이트</h3>
                 <p className="card__desc desc__red">
@@ -37,7 +37,7 @@ export default function Project() {
                 </div>
               </div>
               <div className="card__cta">
-                <a className="btn-link" href="#">
+                <a className="btn-link">
                   Details
                 </a>
               </div>
@@ -51,7 +51,7 @@ export default function Project() {
               <img src="./assets/img/token.jpg" width={650} alt="preview" />
             }
           >
-            <li className="p__list">
+            <li className="p__list" onClick={()=>{window.location.href = "http://eedensoft.com:3002/"}}>
               <div className="card__body">
                 <h3 className="card__title">월 정기결제 웹사이트</h3>
                 <p className="card__desc desc__red">
@@ -66,7 +66,7 @@ export default function Project() {
                 </div>
               </div>
               <div className="card__cta">
-                <a className="btn-link" href="#" >
+                <a className="btn-link">
                   Details
                 </a>
               </div>

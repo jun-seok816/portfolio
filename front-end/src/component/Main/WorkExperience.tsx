@@ -5,15 +5,14 @@ export default function WorkExperience() {
   return (
     <section
       id="experience"
-      className="section section--experience"
-      aria-labelledby="exp-heading"
+      className="section section--experience"      
     >
       <div className="container">
-        <h2 id="exp-heading" className="section__title">
+        <h2 className="section__title">
           WORK EXPERIENCE
         </h2>
 
-        <ol className="timeline" aria-label="Work experience timeline">
+        <ol className="timeline" aria-label="Work timeline">
           <li className="timeline__item">
             <div className="timeline__dot" aria-hidden></div>
             <div className="timeline__content">
