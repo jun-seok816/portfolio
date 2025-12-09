@@ -23,7 +23,12 @@ export default function Project() {
               <img src="./assets/img/waveform.png" width={650} alt="preview" />
             }
           >
-            <li className="p__list" onClick={()=>{window.location.href = "http://eedensoft.com:3000/"}}>
+            <li
+              className="p__list"
+              onClick={() => {
+                window.location.href = "http://eedensoft.com:3000/";
+              }}
+            >
               <div className="card__body">
                 <h3 className="card__title">자막 편집 웹사이트</h3>
                 <p className="card__desc desc__red">
@@ -37,9 +42,7 @@ export default function Project() {
                 </div>
               </div>
               <div className="card__cta">
-                <a className="btn-link">
-                  Details
-                </a>
+                <a className="btn-link">Details</a>
               </div>
             </li>
           </HoverFollower>
@@ -51,7 +54,12 @@ export default function Project() {
               <img src="./assets/img/token.jpg" width={650} alt="preview" />
             }
           >
-            <li className="p__list" onClick={()=>{window.location.href = "http://eedensoft.com:3002/"}}>
+            <li
+              className="p__list"
+              onClick={() => {
+                window.location.href = "http://eedensoft.com:3002/";
+              }}
+            >
               <div className="card__body">
                 <h3 className="card__title">월 정기결제 웹사이트</h3>
                 <p className="card__desc desc__red">
@@ -59,16 +67,48 @@ export default function Project() {
                   로깅·리트라이.
                 </p>
                 <div className="card__tags">
-                  <span className="badge">정길결제</span>
+                  <span className="badge">정기결제</span>
                   <span className="badge">빌링키</span>
                   <span className="badge">웹훅</span>
                   <span className="badge">로깅</span>
                 </div>
               </div>
               <div className="card__cta">
-                <a className="btn-link">
-                  Details
-                </a>
+                <a className="btn-link">Details</a>
+              </div>
+            </li>
+          </HoverFollower>
+          <HoverFollower
+            placement="top-start"
+            offset={6}
+            className="parent-area"
+            floating={
+              <img src="./assets/img/toon.png" width={650} alt="preview" />
+            }
+          >
+            <li
+              className="p__list"
+              onClick={() => {
+                window.location.href = "http://eedensoft.com:3004/";
+              }}
+            >
+              <div className="card__body">
+                <h3 className="card__title">Webtoon 자동번역 모듈</h3>
+                <p className="card__desc desc__red">
+                  - 이미지 위에 크롭 오버레이를 생성·이동 <br />
+                  - OCR/번역 파이프라인 연습 <br />
+                  - 편집 기록(Undo/Redo) 및 오버레이 저장
+                </p>
+                <div className="card__tags">
+                  <span className="badge">웹툰 편집기</span>
+                  <span className="badge">이미지 업로드</span>
+                  <span className="badge">텍스트 영역 지정</span>
+                  <span className="badge">Undo / Redo 편집 기록</span>
+                  <span className="badge">OCR·번역 파이프라인 연습용 샌드박스</span>
+                </div>
+              </div>
+              <div className="card__cta">
+                <a className="btn-link">Details</a>
               </div>
             </li>
           </HoverFollower>

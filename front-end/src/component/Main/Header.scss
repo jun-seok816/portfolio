@@ -3,6 +3,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    padding: 0 8vw;
     z-index: 100;
   }
   .is-scrolled {
@@ -19,6 +20,7 @@
     min-height: 64px;
     gap: var(--space-6);
     padding: 16px;
+    width: 100%;
   }
   .brand {
     display: inline-flex;
@@ -169,8 +171,7 @@
       margin-bottom: clamp(24px, 4vw, 64px);
       font-size: clamp(2.25rem, 6vw, 5.625rem); /* 36px ~ 유동(6vw) ~ 90px */
       z-index: 2;
-      position: relative;
-      font-family: "Pretendard";
+      position: relative;      
     }
 
     p {
@@ -178,6 +179,7 @@
       line-height: 1.4;
       z-index: 2;
       color: #0c1f88;
+      font-weight: bold;
       position: relative;
       font-family: "Pretendard";
     }
