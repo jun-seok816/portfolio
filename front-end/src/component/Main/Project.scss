@@ -4,7 +4,7 @@
 }
 
 .floating {
-  position: absolute;
+  position: fixed;
   pointer-events: none;
   opacity: 0;
   transform: translateY(6px) scaleY(0.8); /* Y만 살짝 접힘 */
