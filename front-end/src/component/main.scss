@@ -184,6 +184,8 @@ body {
 }
 .card__cta {
   align-self: center;
+  gap: 1em;
+  display: flex;
 }
 .btn-link {
   text-decoration: none;
