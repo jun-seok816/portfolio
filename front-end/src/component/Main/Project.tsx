@@ -40,7 +40,7 @@ export default function Project() {
                 <a
                   onClick={() => {
                     window.location.href =
-                      "https://github.com/jun-seok816/video_slice";
+                      "https://github.com/jun-seok816/YouTube_AI_Translator";
                   }}
                   className="btn-link"
                 >
