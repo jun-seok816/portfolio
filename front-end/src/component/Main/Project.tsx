@@ -27,10 +27,10 @@ export default function Project() {
               <div className="card__body">
                 <h3 className="card__title">자막 편집 웹사이트</h3>
                 <p className="card__desc desc__red">
-                  자막 구간을 쉽게 관리하고, 보이는 영역만 리렌더링해 렉을 줄인
-                  편집 도구.
+                  AI를 통해 자막 구간을 쉽게 생성하고 관리하는 편집 도구.
                 </p>
                 <div className="card__tags">
+                  <span className="badge">개인 프로젝트</span>
                   <span className="badge">자막관리</span>
                   <span className="badge">타임라인</span>
                   <span className="badge">성능최적화</span>
@@ -45,16 +45,7 @@ export default function Project() {
                   className="btn-link"
                 >
                   github
-                </a>
-                <a
-                  onClick={() => {
-                    window.location.href =
-                      "https://pentagonal-denim-e3d.notion.site/VideoSlice-2dcfbda394f9806db880c8bb46ff4f9d?source=copy_link";
-                  }}
-                  className="btn-link"
-                >
-                  Describe
-                </a>
+                </a>          
                 <a
                   onClick={() => {
                     window.location.href = "http://eedensoft.com:3000/";
@@ -82,6 +73,7 @@ export default function Project() {
                   로깅·리트라이.
                 </p>
                 <div className="card__tags">
+                  <span className="badge">개인 프로젝트</span>
                   <span className="badge">정기결제</span>
                   <span className="badge">빌링키</span>
                   <span className="badge">웹훅</span>
@@ -97,15 +89,6 @@ export default function Project() {
                   className="btn-link"
                 >
                   github
-                </a>
-                <a
-                  onClick={() => {
-                    window.location.href =
-                      "https://pentagonal-denim-e3d.notion.site/Subscription-2dcfbda394f9803c8e7ee9168b90edd8?source=copy_link";
-                  }}
-                  className="btn-link"
-                >
-                  Describe
                 </a>
                 <a
                   onClick={() => {
@@ -135,6 +118,7 @@ export default function Project() {
                   오버레이 저장
                 </p>
                 <div className="card__tags">
+                  <span className="badge">개인 프로젝트</span>
                   <span className="badge">웹툰 편집기</span>
                   <span className="badge">이미지 업로드</span>
                   <span className="badge">텍스트 영역 지정</span>
@@ -153,15 +137,6 @@ export default function Project() {
                   className="btn-link"
                 >
                   github
-                </a>
-                <a
-                  onClick={() => {
-                    window.location.href =
-                      "https://pentagonal-denim-e3d.notion.site/Webtoon-2dcfbda394f9808e850fe87935b31298?source=copy_link";
-                  }}
-                  className="btn-link"
-                >
-                  Describe
                 </a>
                 <a
                   onClick={() => {
